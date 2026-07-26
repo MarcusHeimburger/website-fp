@@ -13,6 +13,9 @@
   <meta property="og:description" content="Meisterhafte Maler- und Lackierarbeiten in [STADT] und [REGION]. Kostenloses Angebot anfordern.">
   <meta property="og:image" content="https://images.unsplash.com/photo-1562259949-a4aa6b2c2d4e?auto=format&fit=crop&w=1200&q=85">
   <meta property="og:url" content="https://www.deine-domain.de/">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:opsz,wght@10..90,500;10..90,600&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&display=swap" rel="stylesheet">
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
@@ -53,22 +56,22 @@
     :root { --ink:#332722; --blue:#422e28; --aqua:#e7d6c0; --paper:#f6f0e7; --white:#fffdf9; --accent:#b65b3d; --muted:#6c5f56; --line:#ddcdbb; }
     * { box-sizing:border-box; }
     html { scroll-behavior:smooth; }
-    body { margin:0; font-family:Georgia, "Times New Roman", serif; color:var(--ink); background:var(--paper); line-height:1.55; }
-    h1,h2,h3,p { margin-top:0; } h1,h2,h3 { line-height:1.08; letter-spacing:0; }
+    body { margin:0; font-family:"DM Sans", Arial, sans-serif; color:var(--ink); background:var(--paper); line-height:1.55; }
+    h1,h2,h3,p { margin-top:0; } h1,h2,h3 { font-family:"Cormorant Garamond", Georgia, serif; line-height:1.02; letter-spacing:0; }
     a { color:inherit; }
     .wrap { width:min(1140px, calc(100% - 40px)); margin:auto; }
-    .eyebrow { margin-bottom:13px; color:var(--accent); font:700 .74rem/1.2 Arial,sans-serif; letter-spacing:.12em; text-transform:uppercase; }
+    .eyebrow { margin-bottom:13px; color:var(--accent); font:700 .7rem/1.2 "DM Sans",Arial,sans-serif; letter-spacing:.12em; text-transform:uppercase; }
     .site-header { position:absolute; z-index:5; width:100%; color:white; }
     .nav { min-height:76px; display:flex; align-items:center; justify-content:space-between; gap:20px; }
-    .brand { text-decoration:none; font-family:Arial,sans-serif; font-size:.82rem; font-weight:700; letter-spacing:.08em; text-transform:uppercase; line-height:1.2; }
-    .brand strong { display:block; font-size:1.15rem; letter-spacing:0; }
-    .nav-links { display:flex; align-items:center; gap:24px; font:700 .76rem Arial,sans-serif; letter-spacing:.06em; text-transform:uppercase; }
+    .brand { text-decoration:none; font-family:"DM Sans",Arial,sans-serif; font-size:.78rem; font-weight:700; letter-spacing:.08em; text-transform:uppercase; line-height:1.2; }
+    .brand strong { display:block; font-family:"Cormorant Garamond",Georgia,serif; font-size:1.55rem; font-weight:600; letter-spacing:0; text-transform:none; }
+    .nav-links { display:flex; align-items:center; gap:24px; font:700 .72rem "DM Sans",Arial,sans-serif; letter-spacing:.08em; text-transform:uppercase; }
     .nav-links a { text-decoration:none; } .nav-links a:hover { color:#f2c8aa; }
     .menu-toggle { display:none; border:0; color:white; background:transparent; font-size:1.55rem; cursor:pointer; }
     .hero { min-height:700px; padding:148px 0 70px; color:white; background:linear-gradient(90deg,rgba(54,38,30,.92) 0%,rgba(54,38,30,.73) 46%,rgba(54,38,30,.18) 100%),url('https://images.unsplash.com/photo-1562259949-a4aa6b2c2d4e?auto=format&fit=crop&w=1800&q=85') center/cover; display:flex; align-items:center; }
     .hero-content { max-width:720px; } .hero h1 { margin-bottom:24px; font-size:clamp(2.8rem,6vw,5.3rem); font-weight:400; }
     .hero p { max-width:600px; margin-bottom:32px; font-size:clamp(1.08rem,2vw,1.32rem); }
-    .button { display:inline-block; padding:15px 22px; border:1px solid var(--accent); border-radius:2px; background:var(--accent); color:white; font:700 .77rem Arial,sans-serif; letter-spacing:.07em; text-decoration:none; text-transform:uppercase; transition:background .2s, transform .2s; }
+    .button { display:inline-block; padding:15px 22px; border:1px solid var(--accent); border-radius:2px; background:var(--accent); color:white; font:700 .73rem "DM Sans",Arial,sans-serif; letter-spacing:.08em; text-decoration:none; text-transform:uppercase; transition:background .2s, transform .2s; }
     .button:hover { background:#91442e; transform:translateY(-2px); } .button.light { border-color:white; background:white; color:var(--blue); }
     .trust { display:flex; flex-wrap:wrap; gap:15px 28px; margin-top:48px; font:700 .78rem Arial,sans-serif; letter-spacing:.04em; text-transform:uppercase; }
     section { padding:94px 0; } .intro { background:var(--white); }
@@ -82,9 +85,9 @@
     .service-num { color:var(--accent); font:700 .76rem Arial,sans-serif; } .service h3 { margin:42px 0 10px; font-size:1.25rem; font-weight:400; } .service p { color:var(--muted); font-size:.94rem; }
     .gallery { background:var(--white); } .before-after { display:grid; grid-template-columns:1.2fr .8fr; margin-bottom:54px; background:var(--blue); color:white; }
     .comparison { position:relative; min-height:420px; overflow:hidden; background:#cfbba4; } .comparison img { position:absolute; width:100%; height:100%; object-fit:cover; inset:0; }
-    .comparison .after { width:50%; overflow:hidden; border-right:3px solid white; } .comparison .after img { width:100%; max-width:none; }
-    .comparison-label { position:absolute; top:18px; padding:8px 11px; background:rgba(66,46,40,.9); color:white; font:700 .68rem Arial,sans-serif; letter-spacing:.08em; text-transform:uppercase; } .before-label { left:18px; } .after-label { right:18px; }
-    .comparison input { position:absolute; z-index:2; width:100%; height:100%; margin:0; cursor:ew-resize; opacity:0; } .comparison-handle { position:absolute; z-index:1; top:0; bottom:0; left:50%; width:3px; background:white; pointer-events:none; } .comparison-handle::after { content:'↔'; position:absolute; top:50%; left:50%; display:grid; width:38px; height:38px; place-items:center; border-radius:50%; background:white; color:var(--blue); font:700 1.1rem Arial,sans-serif; transform:translate(-50%,-50%); }
+    .comparison .after { width:50%; height:100%; overflow:hidden; border-right:3px solid white; } .comparison .after img { width:100%; max-width:none; }
+    .comparison-label { position:absolute; top:18px; padding:8px 11px; background:rgba(66,46,40,.9); color:white; font:700 .65rem "DM Sans",Arial,sans-serif; letter-spacing:.1em; text-transform:uppercase; } .before-label { left:18px; } .after-label { right:18px; }
+    .comparison input { position:absolute; z-index:2; width:100%; height:100%; margin:0; cursor:ew-resize; opacity:0; } .comparison-handle { position:absolute; z-index:1; top:0; bottom:0; left:50%; width:3px; background:white; pointer-events:none; } .comparison-handle::after { content:'↔'; position:absolute; top:50%; left:50%; display:grid; width:42px; height:42px; place-items:center; border-radius:50%; background:white; color:var(--blue); font:700 1.15rem "DM Sans",Arial,sans-serif; transform:translate(-50%,-50%); box-shadow:0 3px 16px rgba(51,39,34,.2); }
     .comparison-copy { padding:45px 38px; display:flex; flex-direction:column; justify-content:center; } .comparison-copy h3 { font-size:1.85rem; font-weight:400; } .comparison-copy p { color:#f3e7da; } .project-meta { margin-top:17px; color:#f2c8aa; font:700 .72rem Arial,sans-serif; letter-spacing:.07em; text-transform:uppercase; }
     .portfolio-grid { display:grid; grid-template-columns:repeat(3,1fr); gap:18px; } .project { margin:0; background:#fbf5ec; } .project img { display:block; width:100%; height:225px; object-fit:cover; transition:transform .35s; } .project-image { overflow:hidden; } .project:hover img { transform:scale(1.04); } .project figcaption { padding:20px; } .project h3 { margin-bottom:7px; font-size:1.25rem; font-weight:400; } .project p { margin:0; color:var(--muted); font-size:.9rem; }
     .process { background:var(--white); } .process-grid { display:grid; grid-template-columns:repeat(4,1fr); gap:28px; } .process-step { border-top:2px solid var(--accent); padding-top:20px; } .process-step span { color:var(--accent); font:700 .75rem Arial,sans-serif; letter-spacing:.08em; } .process-step h3 { margin:13px 0 8px; font-size:1.28rem; font-weight:400; } .process-step p { margin:0; color:var(--muted); font-size:.94rem; }
