@@ -5,7 +5,7 @@ Eine statische, responsive Ein-Seiten-Website für einen Maler- und Lackierermei
 ## Vor dem Veröffentlichen anpassen
 
 1. `index.html` in VS Code öffnen und alle Platzhalter in eckigen Klammern ersetzen: `[NAME]`, `[STADT]`, `[REGION]`, `[TELEFON]`, `[E-MAIL]` und Anschrift.
-2. Die drei Beispielbilder in der Galerie durch eigene, optimierte Projektfotos ersetzen. Eigene Bilder gehören zum Beispiel in einen Ordner `images`; dann im `src`-Attribut `images/mein-projekt.jpg` eintragen.
+2. Die drei Beispielbilder in der Galerie durch eigene, optimierte Projektfotos ersetzen. Eigene Bilder gehören in `assets/images`; dann im `src`-Attribut `assets/images/mein-projekt.jpg` eintragen.
 3. Die Karte mit der echten Adresse bzw. dem wirklichen Einsatzort aktualisieren.
 4. `impressum.html` und `datenschutz.html` vollständig mit den echten Daten ausfüllen und vor Livegang rechtlich prüfen lassen. Die Vorlagen sind keine Rechtsberatung.
 
